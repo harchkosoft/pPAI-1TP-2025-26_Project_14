@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>1. Lista z Punktorami Zastąpionymi Obrazami (list-style-image)</h2>
+    <ul class="lista-obrazkowa lista-obrazkowa-1">
+      <li>Element z Czerwonym Kółkiem</li>
+      <li>Kolejny Element z Niestandardowym Punktorem</li>
+      <li>Ostatni Element Z Obrazkiem</li>
+    </ul>
+
+    <hr />
+
+    <h2>2. Punktor Poza Elementem (list-style-position: outside)</h2>
+    <ul class="lista-obrazkowa lista-position-outside">
+      <li>Punktor jest "na zewnątrz" elementu (domyślnie).</li>
+      <li>Tekst jest wyrównany do bloku.</li>
+      <li>Łatwo jest go oddzielić od tekstu.</li>
+    </ul>
+
+    <hr />
+
+    <h2>3. Punktor Wewnątrz Elementu (list-style-position: inside)</h2>
+    <ul class="lista-obrazkowa lista-position-inside">
+      <li>Punktor jest "wewnątrz" elementu i traktowany jako część tekstu.</li>
+      <li>
+        Oznacza to, że zawijający tekst będzie zaczynał się pod punktorem.
+      </li>
+      <li>Punktor jest częścią bloku listy.</li>
+    </ul>
+
+    <hr />
+
+    <h2>4. Lista Całkowicie Bez Punktorów (list-style-type: none)</h2>
+    <ul class="lista-obrazkowa lista-bez-punktora">
+      <li>Pierwszy element (bez widocznego punktora).</li>
+      <li>Drugi element (często używany do menu nawigacyjnego).</li>
+      <li>
+        Trzeci element (punktory usunięte za pomocą `list-style-type: none`).
+      </li>
+    </ul>
+
+    <hr />
+
+    <h2>5. Skrócony Zapis Listy (list-style)</h2>
+    <p>Skrócony zapis: <code>list-style: square inside none;</code></p>
+    <ul class="lista-obrazkowa lista-skrocona">
+      <li>Punktor: kwadrat</li>
+      <li>Pozycja: wewnątrz</li>
+      <li>Obraz: brak</li>
+    </ul>
+  </body>
+</html>

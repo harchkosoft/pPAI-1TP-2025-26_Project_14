@@ -1,0 +1,49 @@
+.lista-obrazkowa {
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.lista-obrazkowa li {
+  color: #4682b4;
+  margin-bottom: 10px;
+}
+
+.lista-obrazkowa-1 {
+  list-style-type: none;
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><circle cx="5" cy="5" r="4" fill="%23ff6347"/></svg>');
+}
+
+.lista-position-outside {
+  list-style-type: disc;
+  list-style-position: outside;
+  background-color: #fffacd;
+  color: #8b4513;
+}
+
+.lista-position-inside {
+  list-style-type: square;
+  list-style-position: inside;
+  background-color: #e0eee0;
+  color: #2e8b57;
+}
+
+.lista-bez-punktora {
+  list-style-type: none;
+  padding-left: 0;
+  background-color: #e6e6fa;
+}
+
+.lista-bez-punktora li {
+  color: #483d8b;
+}
+
+.lista-skrocona {
+  list-style: square inside none;
+  background-color: #ffe4e1;
+  color: #a0522d;
+}
+
+.lista-skrocona li:nth-child(even) {
+  background-color: #ffc0cb;
+}
